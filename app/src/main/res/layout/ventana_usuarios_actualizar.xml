@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".sia_roles.roles_actualizar">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/estilo_scroll"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="3dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/estilo_titulos"
+        android:gravity="center"
+        android:text="ACTUALIZAR USUARIO"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Usuario:"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/comboIdentidades"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/estilo_texto" />
+
+
+    <EditText
+        android:id="@+id/txtUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/estilo_texto"
+        android:hint="Seleccione la identidad  ▲"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Rol:"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/comboRoles"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/estilo_texto" />
+
+    <EditText
+        android:id="@+id/txtRol"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/estilo_texto"
+        android:hint="Seleccione el rol  ▲"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/viewCodigo_Rol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Contraseña:"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtContrasena"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/estilo_texto"
+        android:hint="Escriba una contraseña"
+        android:padding="5dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/estilo_boton"
+        android:backgroundTint="#1DA323"
+        android:text="ACTUALIZAR"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

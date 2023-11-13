@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".sia_empleados.empleados_guardar">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/estilo_scroll"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="3dp">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/estilo_titulos"
+        android:gravity="center"
+        android:text="GUARDAR EMPLEADO"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Nombres:"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/txtNombres"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/estilo_texto"
+        android:hint="Escriba los nombres del empleado"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Apellidos:"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/txtApellidos"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/estilo_texto"
+        android:hint="Escriba los apellidos del empleado"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Identidad:"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/txtIdentidad"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/estilo_texto"
+        android:hint="Escriba el N° identidad del empleado"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Cargo:"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/txtCargo"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/estilo_texto"
+        android:hint="Escriba el cargo del empleado"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Teléfono:"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/txtTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/estilo_texto"
+        android:hint="Escriba el N° teléfono del empleado"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Dirección:"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/txtDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/estilo_texto"
+        android:hint="Escriba la dirección del empleado"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/estilo_boton"
+        android:backgroundTint="#1DA323"
+        android:text="GUARDAR"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

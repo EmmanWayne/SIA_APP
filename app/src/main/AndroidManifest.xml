@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sia">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_app"
+        android:label="SIA"
+        android:roundIcon="@drawable/logo_sia"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        <activity android:name=".principal.splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".principal.login" />
+        <activity android:name=".principal.menu" />
+        <activity android:name=".principal.acercaDe" />
+        <activity android:name=".sia_roles.roles_guardar" />
+        <activity android:name=".sia_roles.roles_actualizar" />
+        <activity android:name=".sia_roles.roles_ver" />
+        <activity android:name=".sia_roles.roles_registrados" />
+        <activity android:name=".sia_usuarios.usuarios_guardar" />
+        <activity android:name=".sia_usuarios.usuarios_actualizar" />
+        <activity android:name=".sia_usuarios.usuarios_ver" />
+        <activity android:name=".sia_usuarios.usuarios_registrados" />
+        <activity android:name=".sia_empleados.empleados_guardar" />
+        <activity android:name=".sia_empleados.empleados_actualizar" />
+        <activity android:name=".sia_empleados.empleados_ver" />
+        <activity android:name=".sia_empleados.empleados_registrados" />
+    </application>
+
+</manifest>
